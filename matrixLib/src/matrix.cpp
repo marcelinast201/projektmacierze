@@ -55,7 +55,7 @@ double **fill_matrix(double **matrix, int rows, int columns) {
 
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
-            cout << "podaj liczbe" << endl;
+            cout << "podaj liczby dla macierzy\nZatwierdz liczbe enterem" << endl;
             cin >> number;
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
