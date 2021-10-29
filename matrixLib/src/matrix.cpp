@@ -37,7 +37,7 @@ void size_of_matrixes(int *rows1, int *columns1, int *rows2, int *columns2) {
 int **fill_matrix(int **matrix, int rows, int columns) {
     int number;
 
-    cout << "podaj liczby dla macierzy " << endl;
+    cout << "podaj liczby dla macierzy\nZatwierdz liczbe enterem " << endl;
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
             cin >> number;
